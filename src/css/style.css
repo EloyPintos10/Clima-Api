@@ -1,0 +1,80 @@
+
+:root{
+  background-image: url(../assets/img/pexels-eren-kapusuz-14944201.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+
+}
+
+.contain{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    
+    width: 30rem;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: white;
+    justify-content: space-around;
+    position: absolute;
+    top: 5rem;   
+    
+}
+
+.title-box{
+    font-size: 35px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.contain-card{
+    padding: 20px;    
+    line-height: 1;
+}
+.contain-card-info{
+    padding: 0px 30px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.contain-form{
+    display: flex;
+    justify-content: center;
+}
+.form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   width: 50rem;
+   
+}
+
+.form input{
+    width: 20rem;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.btn-buscar{
+    width: 5rem;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+.icon-api{    
+    object-fit: cover;   
+   
+}
