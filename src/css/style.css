@@ -1,10 +1,6 @@
 
 :root{
-  background-image: url(../assets/img/pexels-eren-kapusuz-14944201.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: cover;
+    background-color: rgb(1, 5, 66);
 
 }
 
@@ -21,8 +17,9 @@
     
     width: 30rem;
     height: 500px;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: rgba(0, 0, 0);
     color: white;
+    border-radius: 15px;
     justify-content: space-around;
     position: absolute;
     top: 5rem;   
@@ -62,10 +59,19 @@
 .form input{
     width: 20rem;
     border-radius: 5px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(133, 2, 2);
 }
 
 .btn-buscar{
+    width: 5rem;
+    padding: 0;
+    color:white;
+    font-weight: 600;
+    margin-top: 1rem;
+    background-color: rgb(133, 2, 2);
+   
+}
+.btn-buscar:hover{
     width: 5rem;
     padding: 0;
     color: rgb(0, 0, 0);
@@ -77,4 +83,49 @@
 .icon-api{    
     object-fit: cover;   
    
+}
+
+.content-city{
+    margin-top: 5rem;
+}
+
+.text-city{
+    color: rgb(2, 47, 83);
+    font-size: 35px;
+    font-style: italic;
+}
+
+
+@media all and (max-width:756px){
+
+ 
+    .box{
+    
+        width: 95%;
+        height: 500px;
+        background-color: rgba(0, 0, 0);
+        color: white;
+        border-radius: 15px;
+        justify-content: space-around;
+        position: absolute;
+        top: 5rem;   
+        
+    }
+    
+    .title-box{
+        font-size: 35px;
+        font-style: italic;
+        margin-top: 25px;
+    }
+    
+    .contain-card{
+        padding: 20px;    
+        line-height: 1;
+    }
+    .contain-card-info{
+        padding: 0px 30px;  
+        display: flex;
+        align-items: center;
+        justify-content: space-around; 
+    }
 }
