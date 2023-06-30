@@ -1,12 +1,12 @@
 
-import Card from './Card';
+import CardClima from './CardClima';
 
 
 const Contain = () => {
  
     return (
         <div className='contain'>          
-            <Card></Card>           
+            <CardClima></CardClima>           
         </div>
     );
 };
