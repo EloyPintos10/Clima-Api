@@ -5,7 +5,7 @@ import Card from "react-bootstrap/Card";
 
 
 const CardClima = () => {
-  const API_CLIMA = `http://api.weatherapi.com/v1/current.json?key=6cb7eb20937d47ec997224826232606&aqi=no&q=`;
+  const API_CLIMA = `https://api.weatherapi.com/v1/current.json?key=6cb7eb20937d47ec997224826232606&aqi=no&q=`;
   const [ciudad, setCiudad] = useState("");
   const [clima, setClima] = useState({
     city: "",
