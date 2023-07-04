@@ -17,6 +17,8 @@ const CardClima = () => {
     icon: "",
   });
 
+
+
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -33,6 +35,8 @@ const CardClima = () => {
         conditionText: dato.current.condition.text,
         icon: dato.current.condition.icon,
       });
+
+
     } catch (error) {
       console.log(error);
     }
@@ -40,7 +44,7 @@ const CardClima = () => {
 
   return (
     <div className="box">
-      <p className="title-box">EL CLIMA</p>
+      <p className="title-box">TU API DEL CLIMA</p>
       <div className="contain-form">
         <form className="form" onSubmit={onSubmit}>
           <input
@@ -54,6 +58,7 @@ const CardClima = () => {
           </button>
         </form>
       </div>
+      <div className="d-flex justify-content-center">
 
       {clima.city ? (
         <Card className="tarjeta">
@@ -65,12 +70,7 @@ const CardClima = () => {
                   {" "}
                    {clima.temperature}°C
                 </p>
-                <img
-                  src={clima.icon}
-                  alt="icono clima"
-                  className="icon-api"
-                  width={100}
-                />
+                <img src={clima.icon} alt="" />   
              
                 <p>
                   {" "}
@@ -89,6 +89,8 @@ const CardClima = () => {
        ""
         
       )}
+      </div>
+
     </div>
   );
 };
