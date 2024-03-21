@@ -4,6 +4,10 @@ import Card from "react-bootstrap/Card";
 import { consultarAPI, traductorViento } from "./helpers/api";
 import Swal from 'sweetalert2'
 import { background } from "./helpers/api";
+import { BsThermometerHigh } from "react-icons/bs";
+import { BsWater } from "react-icons/bs";
+import { BsWind } from "react-icons/bs";
+
 
 const CardClima = () => {   
 
@@ -75,8 +79,8 @@ const CardClima = () => {
         <Card className='tarjeta'>
           <Card.Body className="contain-tarjetas">
             <div>
-            <Card.Title className="text-start fs-3">{clima.city}</Card.Title>
-                <p className="temperature">
+            <Card.Title className="text-start card_title">{clima.city}</Card.Title>
+                <p className="temperature"><span><BsThermometerHigh /></span>
                  
                    {clima.temperature}°C
                 </p>
@@ -90,7 +94,8 @@ const CardClima = () => {
                 </p>
 
                 <p>
-                  <span className="fw-bold">Humedad: </span>
+                  <span className="fw-bold"><BsWater /> </span>
+                  
                   {clima.humidity}%
                 </p>
                 <p>
@@ -98,7 +103,7 @@ const CardClima = () => {
                   {clima.uv}
                 </p>
                 <p>
-                  <span className="fw-bold">Viento: </span>
+                  <span className="fw-bold"><BsWind /> </span>
                   {clima.viento}
                 </p>
               

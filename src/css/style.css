@@ -102,6 +102,10 @@ body{
     
 }
 
+.card_title{
+    font-size: 40px;
+}
+
 .title-box{
     font-size: 35px;
     font-family: 'Comic Neue';
@@ -239,6 +243,29 @@ font-weight: 600;
         font-size: 35px;
         font-style: italic;
         margin-top: 25px;
-    }    
+    }   
+
+    .card_title{
+        font-size: 50px;
+    }
+
+    .contain-tarjetas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    
+    .tarjeta{
+        width: 90%;
+        background-color:#ffffff;
+        border-radius: 15px;
+        padding: 3rem 10px;
+        border: 2px solid rgb(114, 113, 113);
+        box-shadow: 2px 2px 5px 0px rgb(114, 113, 113);   
+        color: #000;
+        margin-bottom: 2rem;
+    }
  
 }

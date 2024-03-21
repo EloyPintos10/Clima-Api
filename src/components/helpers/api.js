@@ -1,3 +1,5 @@
+
+
 export const consultarAPI = async (ciudad) => {
   try {
     const respuesta = await fetch(
