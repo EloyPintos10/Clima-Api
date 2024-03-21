@@ -79,7 +79,7 @@ const CardClima = () => {
         <Card className='tarjeta'>
           <Card.Body className="contain-tarjetas">
             <div>
-            <Card.Title className="text-start card_title">{clima.city}</Card.Title>
+            <Card.Title className="card_title">{clima.city}</Card.Title>
                 <p className="temperature"><span><BsThermometerHigh /></span>
                  
                    {clima.temperature}°C
