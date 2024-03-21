@@ -1,7 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Indie+Flower&display=swap');
-:root{
-    background-color: rgb(1, 5, 66);
+body{
+    background:linear-gradient(rgba(14, 13, 13, 0.412), rgba(0, 0, 0, 0.629)), url('../assets/img/mapa-calor.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+.fondo1{
+   background: url('../assets/img/descarga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+     
+}
+.fondo2{
+    background: url('../assets/img/fondoNoche.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima1{
+   background: url('../assets/img/nublado.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+     
+}
+.fondo_clima2{
+    background: url('../assets/img/noche-nublada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima3{
+    background: url('../assets/img/ligeraPrecipitacion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima4{
+    background: url('../assets/img/cieloCubierto.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima5{
+    background: url('../assets/img/niebla.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima6{
+    background: url('../assets/img/tormenta.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+}
+.fondo_clima7{
+    background: url('../assets/img/nevadas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
 }
 
 
@@ -14,10 +89,10 @@
 
 
 
-.box{
-    
-    width: 30rem;
-    height: 500px;   
+.box{    
+    width: 50rem;
+    height: fit-content; 
+    padding-bottom: 20px;  
     color: white;
     border-radius: 15px;
     justify-content: space-around;
@@ -34,13 +109,29 @@
     
 }
 
+.div-tarjetas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .tarjeta{
-    width: 16rem;
+    width: 40rem;
+    background-color:#ffffff;
     border-radius: 15px;
-    border: 2px solid rgb(133, 2, 2);
+    border: 2px solid rgb(114, 113, 113);
     box-shadow: 2px 2px 5px 0px rgb(114, 113, 113);
     text-align: center;
+    color: #000;
+    margin-bottom: 2rem;
 }
 
 .temperature{
@@ -49,6 +140,23 @@
     font-style: italic;
 }
 
+
+.btnAtras{
+    margin-top: 2rem;
+    color: black;
+    background-color: #ffffff;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+font-weight: 600;
+}
+.btnAtras:hover{
+    margin-top: 2rem;
+    color:#ffffff;
+    background-color:black;
+  
+
+}
 
 
 .contain-form{

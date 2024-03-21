@@ -1,8 +1,8 @@
 
 import CardClima from './CardClima';
+import { useEffect } from 'react';
 
-
-const Contain = () => {
+const Contain = () => {      
  
     return (
         <div className='contain'>          
