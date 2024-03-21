@@ -112,7 +112,7 @@ const CardClima = () => {
           </div>
           ) : (
         <>
-        <div>
+        <div className="div-input">
         <p className="title-box"> API DEL CLIMA</p>
         <div className="contain-form">       
         <form className="form" onSubmit={onSubmit}>

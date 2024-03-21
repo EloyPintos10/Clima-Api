@@ -92,7 +92,6 @@ body{
 .box{    
     width: 50rem;
     height: fit-content; 
-    background-color: rgba(0, 0, 0,0.5);
     padding-bottom: 20px;  
     color: white;
     border-radius: 15px;
@@ -110,11 +109,18 @@ body{
     
 }
 
+.div-input{
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 3rem 10px;
+    border-radius: 15px;
+}
+
 .div-tarjetas{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ 
 }
 
 .contain-tarjetas{
@@ -128,9 +134,9 @@ body{
     width: 40rem;
     background-color:#ffffff;
     border-radius: 15px;
+    padding: 3rem 10px;
     border: 2px solid rgb(114, 113, 113);
-    box-shadow: 2px 2px 5px 0px rgb(114, 113, 113);
-    text-align: center;
+    box-shadow: 2px 2px 5px 0px rgb(114, 113, 113);   
     color: #000;
     margin-bottom: 2rem;
 }
