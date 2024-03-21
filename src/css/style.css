@@ -92,18 +92,19 @@ body{
 .box{    
     width: 50rem;
     height: fit-content; 
+    background-color: rgba(0, 0, 0,0.5);
     padding-bottom: 20px;  
     color: white;
     border-radius: 15px;
     justify-content: space-around;
     position: absolute;
-    top: 5rem;   
+    top: 8rem;   
     
 }
 
 .title-box{
     font-size: 35px;
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Comic Neue';
     font-weight: 800;
     margin-top: 25px;
     
@@ -185,7 +186,7 @@ font-weight: 600;
     width: 8rem;   
     color:white;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 5px 0px;
     background-color: rgb(133, 2, 2);
    
@@ -195,7 +196,7 @@ font-weight: 600;
     padding: 5px 0px;
     color: rgb(133, 2, 2);
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 2rem;
     background-color: white;
 }
 

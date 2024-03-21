@@ -113,17 +113,17 @@ const CardClima = () => {
           ) : (
         <>
         <div>
-        <p className="title-box">TU API DEL CLIMA</p>
+        <p className="title-box"> API DEL CLIMA</p>
         <div className="contain-form">       
         <form className="form" onSubmit={onSubmit}>
             <input
-              placeholder="Ciudad"
+              placeholder="Ingresá Ciudad"
               value={ciudad}
               onChange={(e) => setCiudad(e.target.value)}
               required
             />
             <button type="submit" className="btn btn-buscar">
-              Search
+              BUSCAR
             </button>
           </form>         
         </div>
