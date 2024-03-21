@@ -46,11 +46,13 @@ export const background = (dato1, dato2) => {
    
   } else if ((dato1 === 1) & (dato2 === "Parcialmente nublado")) {
     document.getElementById("body-bg").classList.add("fondo_clima1");
+  } else if ((dato2 === "Nublado")) {
+    document.getElementById("body-bg").classList.add("fondo_clima1");
   
   } else if ((dato1 === 0) & (dato2 === "Parcialmente nublado")) {
     document.getElementById("body-bg").classList.add("fondo_clima2");
    
-  } else if (dato2 === "Ligeras precipitaciones" || dato2 === "Lluvia moderada a intervalos" || dato2 === "Ligeras lluvias") {
+  } else if (dato2 === "Ligeras precipitaciones" || dato2 === "Lluvia" || dato2 === "Ligeras lluvias" || dato2 === "Lluvias fuertes y moderadas") {
     document.getElementById("body-bg").classList.add("fondo_clima3");
   } else if (dato2 === "Lluvia moderada a intervalos") {
     document.getElementById("body-bg").classList.add("fondo_clima3");
@@ -63,6 +65,8 @@ export const background = (dato1, dato2) => {
     
   }else if (dato2 === "Tormenta") {
     document.getElementById("body-bg").classList.add("fondo_clima6");
+  }else if (dato2 === "Nublado") {
+    document.getElementById("body-bg").classList.add("fondo_clima8");
     
   }else if (dato2 === "Nevadas ligeras") {
     document.getElementById("body-bg").classList.add("fondo_clima7");
